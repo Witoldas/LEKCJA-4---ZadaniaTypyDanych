@@ -2,12 +2,10 @@
 using System;
 using System.Globalization;
 
-
 internal class Program
 {
     private static void Main(string[] args)
     {
-
         /*
          1. Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy. Dane
         które chcesz przetrzymywać to:
@@ -20,9 +18,7 @@ internal class Program
         Zadeklaruj zmienne odpowiednich typów, które mogą przetrzymywać te informacje
         */
 
-
-
-        Console.WriteLine(" Zadanie 1. Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy.");
+                Console.WriteLine(" Zadanie 1. Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy.");
         Console.WriteLine(" ");
         Console.WriteLine("Wciśnij dowolny klawisz");
         Console.ReadLine();
@@ -86,17 +82,14 @@ internal class Program
         Console.WriteLine($"Numer pracownika: {workerNumber1}");
         Console.WriteLine(" ");
 
-
         Console.WriteLine("Wciśnij dowolny klawisz");
         Console.ReadLine();
         Console.WriteLine(" ");
-
 
         /*
          2. Napisz program, w którym stworzysz 3 zmienne z jedną literą, a następnie wypiszesz je w
         odwrotnej kolejności niż zostały zadeklarowane.
         */
-
 
         Console.WriteLine(" Zadanie 2. Napisz program, w którym stworzysz 3 zmienne z jedną literą, " +
             "a następnie wypiszesz je w odwrotnej kolejności niż zostały zadeklarowane.");
@@ -120,12 +113,10 @@ internal class Program
         Console.ReadLine();
         Console.WriteLine(" ");
 
-
         /*
                  3. Napisz program, który na podstawie podanej szerokości i długości prostokąta wyliczy długość
                     przekątnej. (Aby, obliczyć kwadrat liczby użyj metody Math.Pow())
         */
-
 
         Console.WriteLine(@" Zadanie 3. Napisz program, który na podstawie podanej szerokości i długości prostokąta wyliczy długość
                             przekątnej. Aby obliczyć kwadrat liczby użyj metody Math.Pow()");
@@ -172,7 +163,6 @@ internal class Program
                     Pamiętaj o użyciu poprawnych typów danych.
         */
 
-
         Console.WriteLine(@" Zadanie 4. Napisz program w którym stworzysz 2 zmienne liczbowe, oraz jedną tekstową, 
             a następnie przypiszesz im następujące wartości: \n
                     a. 10 \n
@@ -207,13 +197,12 @@ internal class Program
         Console.ReadLine();
         Console.WriteLine(" ");
 
-
-
         /*      5. Napisz program w którym poprosisz użytkownika o jego dane personalne tj.Imię, nazwisko,
                         numer telefonu, adres email, wzrost, waga(np. 85, 7), itp(postaraj się wymyślić jak najwięcej)
                         i spróbuj przekonwertować odpowiedź do odpowiedniego typu danych używając metody:
                         typDanych.Parse(odpowiedźOdUżytkownika).
         */
+ 
         Console.WriteLine($"Zadanie 5. Napisz program w którym poprosisz użytkownika o jego dane personalne tj.Imię, nazwisko,\r\n                        numer telefonu, adres email, wzrost, waga(np. 85, 7), itp(postaraj się wymyślić jak najwięcej)\r\n                        i spróbuj przekonwertować odpowiedź do odpowiedniego typu danych używając metody:\r\n                        typDanych.Parse(odpowiedźOdUżytkownika)");
         Console.WriteLine(" ");
         Console.WriteLine("Wciśnij dowolny klawisz");
@@ -274,6 +263,5 @@ internal class Program
         Console.WriteLine("Wciśnij dowolny klawisz");
         Console.ReadLine();
         Console.WriteLine("Dobranoc :)");
-
     }
 }
