@@ -18,7 +18,7 @@ internal class Program
         Zadeklaruj zmienne odpowiednich typów, które mogą przetrzymywać te informacje
         */
 
-                Console.WriteLine(" Zadanie 1. Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy.");
+        Console.WriteLine(" Zadanie 1. Stwórz program, w którym zadeklarujesz zmienne dotyczące danych pracownika firmy.");
         Console.WriteLine(" ");
         Console.WriteLine("Wciśnij dowolny klawisz");
         Console.ReadLine();
