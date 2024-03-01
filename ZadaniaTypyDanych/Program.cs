@@ -185,10 +185,8 @@ internal class Program
 
         Console.WriteLine("napisz: 12.5");
         string c = Console.ReadLine();
-        Console.WriteLine(" ");
-
         double c1 = double.Parse(c, CultureInfo.InvariantCulture);
-        // float c1 = Int32.Parse(c);  // -   nie wiem jak to przekonwertować :(
+        Console.WriteLine(" ");
 
         Console.WriteLine($"Twoje wpisane wartości to: {a1}, {b1} i {c1}.");
         Console.WriteLine(" ");
